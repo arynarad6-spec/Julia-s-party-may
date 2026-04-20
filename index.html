@@ -560,7 +560,7 @@ footer{
 <!-- ═══════════════════════════════════════════════
      LETTER SECTION
 ═══════════════════════════════════════════════ -->
-<section class="letter-section">
+<section class="letter-section"id="letter">
 
   <!-- scattered pastel dots -->
   <div class="dot-scatter" style="width:10px;height:10px;background:#f0b0c8;top:8%;left:5%;opacity:0.5;"></div>
@@ -1058,7 +1058,7 @@ reveals.forEach(el=>io.observe(el));
 // Scroll to details
 function scrollDown(){
   setTimeout(()=>{
-    document.getElementById('details').scrollIntoView({behavior:'smooth'});
+    document.getElementById('letter').scrollIntoView({behavior:'smooth'});
   },600);
 }
 
